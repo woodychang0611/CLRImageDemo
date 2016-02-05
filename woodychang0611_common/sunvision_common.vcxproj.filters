@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="data_operation.cpp" />
+    <ClCompile Include="geometry2d.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="image_operation.cpp" />
+    <ClCompile Include="mem_block.cpp" />
+    <ClCompile Include="windows_io.cpp" />
+    <ClCompile Include="tensor.cpp" />
+    <ClCompile Include="tensor_operation.cpp" />
+    <ClCompile Include="avg_calculator.cpp">
+      <Filter>未整理</Filter>
+    </ClCompile>
+    <ClCompile Include="avg_time_count.cpp">
+      <Filter>未整理</Filter>
+    </ClCompile>
+    <ClCompile Include="image_find_license_plate.cpp">
+      <Filter>未整理</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_operation.cpp">
+      <Filter>未整理</Filter>
+    </ClCompile>
+    <ClCompile Include="time_units.cpp">
+      <Filter>未整理</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_displayer.cpp" />
+    <ClCompile Include="frame_displayer_base.cpp" />
+    <ClCompile Include="frame_observer_base.cpp" />
+    <ClCompile Include="frame_subject_base.cpp" />
+    <ClCompile Include="observer_pattern.cpp" />
+    <ClCompile Include="avi_frame_graber.cpp" />
+    <ClCompile Include="video_frame_graber.cpp" />
+    <ClCompile Include="draw_object.cpp" />
+    <ClCompile Include="diagnostics.cpp" />
+    <ClCompile Include="dummy_frame_graber.cpp" />
+    <ClCompile Include="dummy_filter.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="color.h" />
+    <ClInclude Include="data_operation.h" />
+    <ClInclude Include="geometry2d.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="image_operation.h" />
+    <ClInclude Include="mem_block.h" />
+    <ClInclude Include="sunvision_common.h" />
+    <ClInclude Include="tensor.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="windows_io.h" />
+    <ClInclude Include="tensor_operation.h" />
+    <ClInclude Include="avg_time_count.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="avg_calculator.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="image_find_license_plate.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_operation.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="time_units_name.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="time_units.h">
+      <Filter>未整理</Filter>
+    </ClInclude>
+    <ClInclude Include="stl.h" />
+    <ClInclude Include="avi_frame_graber.h" />
+    <ClInclude Include="frame_observer_base.h" />
+    <ClInclude Include="frame_subject_base.h" />
+    <ClInclude Include="frame_displayer.h" />
+    <ClInclude Include="frame_displayer_base.h" />
+    <ClInclude Include="observer_pattern.h" />
+    <ClInclude Include="video_frame_graber.h" />
+    <ClInclude Include="frame_processor_base.h" />
+    <ClInclude Include="draw_object.h" />
+    <ClInclude Include="diagnostics.h" />
+    <ClInclude Include="dummy_frame_graber.h" />
+    <ClInclude Include="dummy_filter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{dea55d13-a085-4911-a821-00827d9e6da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="未整理">
+      <UniqueIdentifier>{5a48cc3a-6bfd-48ed-b8a5-9b71c9d88d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{580eb654-c65c-49b7-bdcf-8850a44a91df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
