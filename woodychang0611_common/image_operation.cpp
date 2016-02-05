@@ -690,8 +690,8 @@ namespace woodychang0611{
 				dst.clear();
 				if (!src.IsValid()) return 0;
 				if (!src.IsWithin(target_point)) return 0;
-				woodychang0611::math::Tensor<UINT8,2> result_buffer(src.GetImageHeight(),src.GetImageWidth()); //紀綠結果的0 表示未使用 1表示已使用 
-				std::vector < woodychang0611::geometry::IPoint2D> boundary_point[2]; //新產生的邊緣 兩個暫存區交叉使用 
+				woodychang0611::math::Tensor<UINT8,2> result_buffer(src.GetImageHeight(),src.GetImageWidth()); //紀綠結果的0 表示未使用 1表示已使用_ 
+				std::vector < woodychang0611::geometry::IPoint2D> boundary_point[2]; //新產生的邊緣 兩個暫存區交叉使用 _
 				T target_color = src.GetPixel(target_point.x_,target_point.y_);
 				result_buffer.SetValue(0);
 				dst.push_back(target_point);
