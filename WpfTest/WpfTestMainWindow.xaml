@@ -17,12 +17,13 @@
     <StackPanel>
         <clr_test:MyTestClass x:Name="dummySource"/>
         <Image Source="{Binding ElementName=dummySource,Path=VideoSource}"></Image>
-        <Button  Command="{Binding ElementName=dummySource,Path=StartCommand}"> My Dummy GraberPlay</Button>
-        <Button  Command="{Binding ElementName=dummySource,Path=EndCommand}">My Dummy GraberEnd</Button>
+        <Button  Command="{Binding ElementName=dummySource,Path=StartCommand}">Play</Button>
+        <Button  Command="{Binding ElementName=dummySource,Path=EndCommand}">End</Button>
 
         <Grid Margin="10">
                </Grid>
-        <TextBlock  Text="{Binding ElementName=dummySource,Path=ElementCount}" Foreground="Brown"/>
-        <Slider  Value="{Binding ElementName=dummySource,Path=ElementCount}" Margin="10" Height="30"   Maximum="300" Minimum="0"/>
+        <TextBlock>Ball Count</TextBlock>
+        <TextBlock  Text="{Binding ElementName=dummySource,Path=ElementCount}"/>
+        <Slider  Value="{Binding ElementName=dummySource,Path=ElementCount}" Margin="10" Height="30"   Maximum="255" Minimum="0"/>
      </StackPanel>
 </Window>

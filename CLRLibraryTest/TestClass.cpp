@@ -22,29 +22,6 @@ namespace{
 
 namespace WoodyChang0611{
 	namespace Test{
-		//ref class MyTestCommand;
-
-
-		//public ref class QQ :System::Windows::Input::ICommand
-		//{
-		//public:
-		//	virtual bool CanExecute(Object^ parameter)
-		//	{
-		//		return true;
-		//	}
-
-		//	event EventHandler^ CanExecuteChanged
-		//	{
-		//		virtual void add(EventHandler^p) {; }
-		//		virtual void remove(EventHandler^p){ ; }
-		//	}
-
-
-		//	virtual void Execute(Object^ parameter)
-		//	{
-		//		return;
-		//	}
-		//};
 
 		public ref class MyTestClass : public System::Windows::FrameworkElement
 		{
