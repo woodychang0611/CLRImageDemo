@@ -5,11 +5,11 @@
 Combination of C++, C++/CLI, and C# projects.
 
 The demo shows moving balls with given numbers.
-The control and disaply is built on WPF project.
-The detail algorithm is provide by C++ project.
+The control and display is built on WPF project.
+The detail algorithm is provided by C++ project.
 
 
-##Project Decription
+##Project Description
 
 ###woodychang0611_common(C++)
 Common C++ function and image processing library
@@ -24,4 +24,4 @@ Common C# function library
 Test class to provide model for display
 
 ###WpfTest (C#/WPF)
-Demo project for showing the result of displaying infomation from C++ library
+Demo project for showing the result of displaying information from C++ library
