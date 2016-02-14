@@ -1,4 +1,6 @@
 #CLRImageDemo
+![Alt text](/demo1.png "WPF Demo")
+
 
 Combination of C++, C++/CLI, and C# projects.
 
