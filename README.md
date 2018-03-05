@@ -1,4 +1,4 @@
-#CLRImageDemo
+# CLRImageDemo
 ![Alt text](/demo1.png "WPF Demo")
 
 
@@ -9,19 +9,19 @@ The control and display is built on WPF project.
 The detail algorithm is provided by C++ project.
 
 
-##Project Description
+## Project Description
 
-###woodychang0611_common(C++)
+### woodychang0611_common(C++)
 Common C++ function and image processing library
 
-###WoodyChang0611CLICommon(C++/CLI)
+### WoodyChang0611CLICommon(C++/CLI)
 Adapter for woodychang0611_common
 
-###WoodyChang0611.Common (C#)
+### WoodyChang0611.Common (C#)
 Common C# function library
 
-###CLRLibraryTest(C++/CLI)
+### CLRLibraryTest(C++/CLI)
 Test class to provide model for display
 
-###WpfTest (C#/WPF)
+### WpfTest (C#/WPF)
 Demo project for showing the result of displaying information from C++ library
