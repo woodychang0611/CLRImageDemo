@@ -139,6 +139,10 @@
       <Project>{9d2ae743-c1ab-4e02-af9c-03807333621d}</Project>
       <Name>CLRLibraryTest</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WoodyChang0611.Common\WoodyChang0611.Common.csproj">
+      <Project>{fcd5b6e2-e433-4824-83f5-2dc700e50237}</Project>
+      <Name>WoodyChang0611.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WoodyChang0611CLICommon\SunvisionCLICommon.vcxproj">
       <Project>{e610a5d6-24f6-4d44-a192-9f31da5ae5a7}</Project>
       <Name>WoodyChang0611CLICommon</Name>
