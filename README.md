@@ -1,5 +1,5 @@
 # CLRImageDemo
-![Alt text](/demo1.png "WPF Demo")
+![Alt text](/demo.gif "WPF Demo")
 
 
 Combination of C++, C++/CLI, and C# projects.
